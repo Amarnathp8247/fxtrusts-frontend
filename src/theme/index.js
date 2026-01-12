@@ -13,7 +13,7 @@ export const getCustomTheme = (selectedTheme) => {
             values: { xs: 0, sm: 600, md: 900, lg: 1230, xl: 1536 },
         },
         palette: {
-            mode: selectedTheme === "dark" ? "dark" : "dark",
+            mode: selectedTheme === "dark" ? "dark" : "light",
             primary: { main: selectedTheme === "dark" ? brandColors.brandLight : brandColors.brandDark },
             background: {
                 default: selectedTheme === "dark" ? "#121212" : "#f5f5f5",
